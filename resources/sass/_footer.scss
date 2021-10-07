@@ -1,0 +1,72 @@
+#footer {
+	background: url('/assets/images/bg-footer.jpg');
+	color: #fff;
+
+	.footer-top {
+		
+		.contact {
+
+			i {
+				font-size: 18px;
+			}
+		}
+		
+		.social-midias {
+
+			a {
+				background: $secondary;
+				color: #fff;
+				width: 30px;
+				height: 30px;
+			}
+		}
+
+
+
+	}
+
+	.bottom-footer {
+		background: $secondary;
+		padding: 10px 20px;
+		color: #fff;
+
+		p {
+			margin: 0;
+			font-size: 14px;
+		}
+
+		.copy {
+			float: left;
+			padding: 5px 0;
+		}
+
+		.dev {
+			float: right;
+			text-align: right;
+		}
+	}
+}
+
+.float {
+	position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+
+	&:hover {
+		color: #fff;
+	}
+}
+
+.my-float {
+	margin-top: 16px;
+}

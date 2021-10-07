@@ -1,0 +1,57 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: $primary;
+}
+
+.btn {
+    &:focus {
+        box-shadow: inherit;
+    }
+}
+
+select {
+    -webkit-appearance: revert !important;
+    -moz-appearance: revert !important;
+    appearance: revert !important;
+}
+
+.bg-gray {
+    background-color: #bcbcbc;
+}
+
+
+.page-title-content {
+    background-repeat: no-repeat!important;
+    background-position: 50%!important;
+    background-size: cover!important;
+    height: 550px;
+    margin-top: 160px;
+}
+
+#search-box {
+    .formSearch {
+        background: rgb(235, 134, 56);
+        background: linear-gradient(90deg, rgba(235, 134, 56, 1) 0%, rgba(238, 163, 58, 1) 100%);
+
+        input,
+        select {
+            background: #eaeaea;
+        }
+
+        button {
+            background: $primary;
+            border: none;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
+
+@import 'select2';

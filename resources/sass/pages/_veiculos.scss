@@ -1,0 +1,191 @@
+#veiculos {
+    
+    #cars {
+        /** Car box 3 **/
+        .car-box {
+            position: relative;
+            background: #fff;
+            border: none;
+            overflow: hidden;
+
+            &:hover {
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            }
+
+            .detail {
+                background-color: #eaeaea;
+                padding: 25px 20px 15px;
+
+                .title {
+                    font-size: 22px;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+
+                    a {
+                        color: #141414;
+
+                        &:hover {
+                            color: #343a40;
+                        }
+                    }
+                }
+
+                .price {
+                    color: $secondary;
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                }
+
+                .facilities {
+                    padding: 0;
+
+                    span {
+                        font-size: 12px;
+                    }
+                }
+
+                .btn {
+                    background-color: $secondary;
+                    color: #fff;
+                    padding: 2px 5px;
+                }
+            }
+        }
+    }
+}
+
+#veiculo {
+    margin-top: 160px;
+
+    .main-content {
+        .slick-cars-for {
+
+
+
+            .slick-prev:before,
+            .slick-next:before {
+                color: $dark;
+                content: inherit;
+            }
+
+            .slick-prev {
+                left: 15px;
+            }
+
+            .slick-next {
+                right: 15px;
+            }
+
+            .slick-prev,
+            .slick-next {
+                z-index: 9;
+                background: rgba(255, 255, 255, 0.37);
+                height: 50px;
+                width: 30px;
+                border-radius: 3px;
+
+                i {
+                    color: $dark;
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .slick-cars-nav {
+
+            .slick-prev:before,
+            .slick-next:before {
+                color: $dark;
+                content: inherit;
+            }
+
+            .slick-slide {
+                margin: 0 10px;
+            }
+
+            .slick-prev {
+                left: 15px;
+            }
+
+            .slick-next {
+                right: 15px;
+            }
+
+            .slick-prev,
+            .slick-next {
+                z-index: 9;
+                background: rgba(255, 255, 255, 0.37);
+                height: 50px;
+                width: 30px;
+                border-radius: 3px;
+
+                i {
+                    color: $dark;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .side-content {
+        h5 {
+            background-color: #0e1030;
+            color: #fff;
+        }
+
+        .info-car {
+            .list-group {
+                border-radius: 0;
+
+                .list-group-item {
+                    font-style: italic;
+                }
+
+                .list-group-item.list-group-item-secondary {
+                    background-color: #f2f2f2;
+                }
+                .list-group-item.list-group-item-dark {
+                    background-color: #dddddd;
+                }
+            }
+        }
+
+        .form-imovel {
+            background-color: #0e1030;
+
+            form {
+                input,
+                textarea {
+                    background-color: #dddddd;
+                    border-radius: 15px;
+                    border: 0;
+                    font-weight: 400;
+                    font-style: italic;
+                    padding: 12px;
+                }
+
+                input[type="checkbox"] {
+                    border-radius: 0px;
+                    padding: 10px;
+                }
+
+                .form-check {
+                    .form-check-label {
+                        font-size: 14px;
+                        color: #fff;
+                    }
+                }
+
+                button {
+                    background: $secondary;
+                    color: #fff;
+                    border: 0;
+                    border-radius: 10px;
+                    padding: 8px 30px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

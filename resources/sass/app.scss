@@ -1,0 +1,25 @@
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+@import '~owl.carousel/dist/assets/owl.theme.default.css';
+
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+@import "@fancyapps/ui/dist/fancybox.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+// Site
+@import "bootstrap";
+
+@import "variables";
+@import "icons";
+
+@import 'global';
+@import 'header';
+@import 'footer';
+@import 'pages/home';
+@import 'pages/veiculos';
+@import 'pages/contato';
+@import 'responsive';

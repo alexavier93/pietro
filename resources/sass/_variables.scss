@@ -1,0 +1,31 @@
+// Colors
+$primary: #232323;
+$secondary: #eb8838;
+
+$dark: #4c4c4e;
+$white: #ffffff;
+$black: #000000;
+$light: #80b092;
+$danger: #d41f25;
+$grey: #f4f4f4;
+
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "dark": $dark,
+    "light": $white,
+    "danger": $danger,
+    "grey": $grey,
+);
+
+
+// Headings
+
+h1, h2, h3 {
+    font-family: 'Barlow', sans-serif;
+}
+
+.text-secondary {
+    color: $secondary !important;
+}
